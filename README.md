@@ -1,0 +1,2 @@
+Ce projet s'agit d'une évaluation chez SAYNA dans les modules HTML et CSS, qui vise à renforcer les compétences des apprenants.
+C'est un projet axé sur le développement d'un site responsive sur l'univer de Black Panther.
