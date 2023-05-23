@@ -26,7 +26,7 @@
 /* Fin des typographies */
 
 
-/* Proprieté globale */
+/* Style globale */
 
 p,
 label {
@@ -46,10 +46,10 @@ label {
 }
 
 
-/* FIN propriete global */
+/* FIN STYLE global */
 
 
-/* Design de la section defi */
+/* Style de la section defi */
 
 #defi {
     background-image: url("../Illustrations + Logo/Enigme/Pantherenigme1.png");
@@ -99,7 +99,7 @@ label {
 /* Fin section defi  */
 
 
-/* Design de la section Enigme */
+/* STYLE de la section Enigme */
 
 .main-enigme {
     margin-left: 15%;
@@ -178,13 +178,13 @@ label {
 /* Fin section Enigme */
 
 
-/* ###################################################################### */
+/* ________________________________________________________________________ */
 
 
-/* ######################## PROPRIETE RESPONSIVE ######################## */
+/* ------------------------ PROPRIETE RESPONSIVE -------------------------- */
 
 
-/* ###################################################################### */
+/* ________________________________________________________________________ */
 
 @media (max-width: 800px) {
     /* DEFINIR LES PROPRIETE RESPONSIVE A PARTIR D'ECRAN DE 800PX */
