@@ -1,6 +1,6 @@
-/* FEUILLE DE STYLE DE LA PAGE WAKANDA */
+/* STYLE DE LA PAGE WAKANDA */
 
-/* Definition des typographies et les propriétés générales  */
+/* Definition des typographies et des propriétés générales  */
 
 @font-face {
     font-family: "beyno";
@@ -26,7 +26,7 @@
 /* Fin des typographies */
 
 
-/* Propriete global */
+/* Propriétés global */
 
 :root {
     --violet-primaire: #3D2DA6;
@@ -42,7 +42,7 @@
 /* Fin propriete global */
 
 
-/* Design de la section wakanda */
+/* STYLES de la section wakanda */
 
 #wakanda {
     background-image: url("../Illustrations + Logo/Wakanda/Pantherwakanda1.png");
@@ -82,7 +82,7 @@
 /* # Fin section introduction wakanda */
 
 
-/* Design de la section apropos */
+/* STYLES de la section apropos */
 
 #apropos {
     background-image: url("../Illustrations + Logo/Wakanda/Pantherwakanda2.png");
@@ -126,13 +126,13 @@
 /* fin section apropos */
 
 
-/* ###################################################################### */
+/* _______________________________________________________________________ */
 
 
-/* ######################## PROPRIETE RESPONSIVE ######################## */
+/* ------------------------- PROPRIETE RESPONSIVE ----------------------- */
 
 
-/* ###################################################################### */
+/* _______________________________________________________________________ */
 
 @media (max-width: 800px) {
     /* DEFINIR LES PROPRIETE RESPONSIVE A PARTIR D'ECRAN DE 800PX */
