@@ -1,4 +1,4 @@
-/* Definition des typographies et les propriétés générales  */
+/* Definition des typographies et des propriétés générales  */
 
 @font-face {
     font-family: "beyno";
@@ -24,7 +24,7 @@
 /* Fin typographie */
 
 
-/* Design du style global */
+/* STYLES  global */
 
 * {
     margin: 0;
@@ -81,10 +81,10 @@ body {
 }
 
 
-/* Fin du design global */
+/* Fin du STYLES global */
 
 
-/* Design du header  */
+/* STYLES du header  */
 
 header {
     display: flex;
@@ -125,16 +125,16 @@ header .menu .active {
 }
 
 
-/* Fin du design Header */
+/* Fin du STYLES Header */
 
 
-/* DEsign des contenus  */
+/* STYLES des contenus  */
 
 
-/* DESIGN DE LA PAGE INDEX */
+/* STYLES DE LA PAGE INDEX */
 
 
-/* Design de la section black panther */
+/* STYLES de la section black panther */
 
 .section-panther {
     background-image: url("../Illustrations + Logo/Accueil/Pantherhome1..png");
@@ -202,7 +202,7 @@ header .menu .active {
 /* Fin intro black panther */
 
 
-/* Design section slide hero */
+/* STYLES section slide hero */
 
 .conainer-slides {
     margin-left: 8%;
@@ -250,7 +250,7 @@ header .menu .active {
 /* Fin section slide hero */
 
 
-/* Design de la Section naissance du prince */
+/* STYLES de la Section naissance du prince */
 
 #dob-prince {
     padding-left: 15%;
@@ -331,10 +331,10 @@ header .menu .active {
 }
 
 
-/* Fin du design de la Section naissance du prince */
+/* Fin du STYLES de la Section naissance du prince */
 
 
-/* Section CONTACT  */
+/* STYLES du Section CONTACT  */
 
 #contact {
     background-image: url("../Illustrations + Logo/Accueil/Pantherhome7.png");
@@ -392,7 +392,7 @@ header .menu .active {
 /* Fin de style du contenu  */
 
 
-/* DESIGN DU FOOTER INDEX */
+/* STYLES DU FOOTER INDEX */
 
 
 /* Definition style footer */
@@ -460,7 +460,6 @@ footer .policies {
 }
 
 .policies .link .social .social-logo img:hover {
-    /* zoom: 1.1; */
     transform: scale(1.10);
 }
 
@@ -483,16 +482,16 @@ footer .policies {
 /* Fin style footer */
 
 
-/* ###################################################################### */
+/* ______________________________________________________________________ */
 
 
-/* ######################## PROPRIETE RESPONSIVE ######################## */
+/* ------------------------ PROPRIETE RESPONSIVE ------------------------ */
 
 
-/* ###################################################################### */
+/* ______________________________________________________________________ */
 
 @media (max-width: 800px) {
-    /* DEFINIR LES PROPRIETE RESPONSIVE A PARTIR D'ECRAN DE 800PX */
+    /* DEFNITION DES PROPRIETE RESPONSIVE A PARTIR D'ECRAN DE 800PX */
 
     /* feuille de style menu */
     header {
@@ -530,7 +529,7 @@ footer .policies {
     }
     /* fin footer */
 
-    /* ####### RESPONSIVE SPECIFIQUE A LA PAGE INDEX ######## */
+    /* --------- RESPONSIVE SPECIFIQUE A LA PAGE INDEX ---------- */
 
     /* Propriete Responsive de la section black panther */
 
