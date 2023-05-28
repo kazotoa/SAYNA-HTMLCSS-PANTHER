@@ -124,6 +124,12 @@ header .menu .active {
     color: var(--violet-secondaire);
 }
 
+header .logo-header .logo-sayna:hover,
+header .logo-header .x:hover,
+header .logo-header .logo-marvel:hover{
+    filter: invert(85%) sepia(110%) saturate(1081%) hue-rotate(197deg) brightness(92%) contrast(110%);
+}
+
 
 /* Fin du STYLES Header */
 
@@ -192,10 +198,21 @@ header .menu .active {
     width: 500px;
     margin-bottom: 10px;
 }
+.section-panther .intro-panther .texte-intro,
+.section-panther .intro-panther .voir{
+    color: var(--white);
+}
 
 .section-panther .intro-panther a {
     color: var(--white-primaire);
     font-family: "cantarell";
+}
+
+.section-panther .icon-social .logo_facebook:hover,
+.section-panther .icon-social .logo_instagram:hover,
+.section-panther .icon-social .logo_twitter:hover,
+.section-panther .icon-social .logo_tiktok:hover{
+    filter: invert(100%) sepia(5%) saturate(190%) hue-rotate(344deg) brightness(672%) contrast(110%);
 }
 
 
@@ -204,46 +221,53 @@ header .menu .active {
 
 /* STYLES section slide hero */
 
-.conainer-slides {
+.container-slides {
     margin-left: 8%;
     background-color: var(--violet-tertiaire);
     display: flex;
+    
 }
 
-.conainer-slides .card {
+.container-slides .card {
     display: flex;
     align-items: center;
     height: 300px;
 }
 
-.conainer-slides .card img {
+.container-slides .card img {
     height: 100%;
 }
-
-.conainer-slides .card .img-active {
-    height: auto;
-    transform: scale(0.8);
+ 
+.container-slides .card .img-active-1{
+    margin-left: 30px;
 }
 
-.conainer-slides .card .decription-slide {
+.container-slides .card .decription-slide {
     clear: left;
     margin-top: 30px;
     margin: 0px 30px;
 }
 
-.conainer-slides .card .decription-slide .titre-slide {
-    font-size: 25px;
+.container-slides .card .img-active-1:hover,
+.container-slides .card .img-active-2:hover{
+    transform: scale(1.14);
+}
+.container-slides .card .decription-slide .titre-slide {
+    font-size: 32px;
     margin-bottom: 10px;
 }
 
-.conainer-slides .card .decription-slide .texte-slide {
+.container-slides .card .decription-slide .texte-slide {
     text-align: justify;
     margin-bottom: 10px;
+    color: var(--white);
+    font-size: 12px;
 }
 
-.conainer-slides .card .decription-slide a {
-    color: var(--white-primaire);
+.container-slides .card .decription-slide a {
+    color: var(--white);
     font-family: "cantarell";
+    font-size:12px;
 }
 
 
@@ -272,6 +296,7 @@ header .menu .active {
     display: block;
     margin-bottom: 20px;
     text-align: justify;
+    color: var(--white);
 }
 
 #dob-prince .presentation {
@@ -545,13 +570,13 @@ footer .policies {
     }
     /* Fin  */
     /* style responsive  section slide hero */
-    .conainer-slides {
+    .container-slides {
         margin-left: 0%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .conainer-slides .card {
+    .container-slides .card {
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -560,10 +585,10 @@ footer .policies {
         text-align: center;
         margin-bottom: 20px;
     }
-    .conainer-slides .card img {
+    .container-slides .card img {
         width: 80%;
     }
-    .conainer-slides .card .img-active {
+    .container-slides .card .img-active {
         height: auto;
         transform: none;
     }
