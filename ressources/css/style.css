@@ -18,6 +18,37 @@
 @font-face {
     font-family: "WakandaForever";
     src: url("fonts/WakandaForever-Regular.ttf");
+
+}
+    /* --------- ANNIMATION DES CONTENUS---------- */
+section, img, p, h1, h2, h3, h4, h5, h6, span, li  {
+    position: relative;
+    -webkit-animation-name: fade-in;
+            animation-name: fade-in;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+
+}
+
+@-webkit-keyframes fade-in {
+    from {
+        right: 350px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        right: 350px;
+    }
+    to {
+        right: 0px;
+    }
+
 }
 
 
@@ -123,7 +154,11 @@ header .menu ul li a {
     color: var(--white);
 }
 
-header .menu ul li a:hover,
+header .menu ul li a:hover{
+    text-decoration: underline;
+    color: var(--white);
+
+}
 header .menu .active {
     text-decoration: underline;
     color: var(--violet-secondaire);
@@ -452,6 +487,10 @@ footer .logo-footer {
     margin-right: 50px;
 }
 
+footer .logo-footer:hover{
+    transform: scale(1.1);
+}
+
 footer .policies {
     display: flex;
     flex-direction: column;
@@ -537,7 +576,7 @@ footer .policies {
     }
     header .menu ul li {
         display: block;
-        margin: 20px;
+        margin: 0px;
         text-align: center;
     }
     /* Fin menu  */
@@ -634,3 +673,5 @@ footer .policies {
     }
     /* fin section CONTACT */
 }
+
+

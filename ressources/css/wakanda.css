@@ -76,6 +76,7 @@
     display: block;
     width: 400px;
     text-align: justify;
+    color: var(--white);
 }
 
 
@@ -99,6 +100,7 @@
     display: block;
     margin-bottom: 20px;
     text-align: justify;
+    color: var(--white);
 }
 
 #apropos h2 {
@@ -108,7 +110,7 @@
 
 .left-apropos,
 .right-apropos {
-    width: 500px;
+    width: 450px;
 }
 
 .left-apropos .videos-container {
